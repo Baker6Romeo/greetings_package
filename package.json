@@ -6,7 +6,16 @@
     "type": "git",
     "url": "git+https://github.com/Baker6Romeo/greetings_package.git"
   },
-  "main": "index.js",
+  "exports": {
+    "import": {
+      "default": "./lib/index.esm.js",
+      "types": "./lib/types/index.d.ts"
+    },
+    "require": {
+      "default": "./lib/index.cjs",
+      "types": "./lib/types/index.d.ts"
+    }
+  },
   "type": "module",
   "scripts": {
     "build": "rollup -c",
