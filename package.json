@@ -1,0 +1,15 @@
+{
+  "name": "greetings_package",
+  "version": "1.0.0",
+  "description": "This package is for greeting a person during the day...it's also for learning about packaging",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baker6Romeo/greetings_package.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "baker6romeo",
+  "license": "MIT"
+}
