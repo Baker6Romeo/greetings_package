@@ -7,7 +7,9 @@
     "url": "git+https://github.com/Baker6Romeo/greetings_package.git"
   },
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "baker6romeo",
